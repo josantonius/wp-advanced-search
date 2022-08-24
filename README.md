@@ -1,4 +1,4 @@
-# Geolocation Attendance Control
+# WordPress Advanced Search
 
 [![License](https://img.shields.io/badge/License-MIT-9b59b6.svg)](LICENSE)
 
