@@ -1,0 +1,71 @@
+{
+    "name": "josantonius/wp-advanced-search",
+    "description": "WordPress Advanced Search.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "advanced-search",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josantonius",
+            "email": "hello@josantonius.dev",
+            "homepage": "https://josantonius.dev",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/josantonius/wp-advanced-search/issues",
+        "source": "https://github.com/josantonius/wp-advanced-search"
+    },
+    "require": {
+        "php": "^5.3 || ^7.0",
+        "eliasis-framework/eliasis": "^1.1.3",
+        "josantonius/Json": "^1.1.7",
+        "josantonius/Hook": "^1.1.0",
+        "josantonius/WP_Register": "^1.0.5",
+        "josantonius/WP_Menu": "^1.0.7",
+        "composer/installers": "^1.4.0"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^0.14",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3",
+        "phpunit/phpunit": "^5.7 || ^6.0",
+        "squizlabs/php_codesniffer": "^3.2.2",
+        "phpmd/phpmd": "^2.6"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": []
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "scripts": {
+        "phpunit": "vendor/bin/phpunit --colors=always;",
+        "phpcs": "vendor/bin/phpcs --standard=phpcs.xml $(find . -name '*.php');",
+        "phpmd": "vendor/bin/phpmd src,tests text ./phpmd.xml",
+        "fix": [
+            "vendor/bin/phpcbf src tests"
+        ],
+        "tests": [
+            "clear",
+            "@phpmd",
+            "@phpcs",
+            "@phpunit"
+        ]
+    }
+}

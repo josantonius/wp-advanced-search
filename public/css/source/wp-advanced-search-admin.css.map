@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "sources": [
+    "wp-advanced-search-admin.sass",
+    "layout/_header.sass",
+    "partials/_global.sass",
+    "partials/_nav.sass",
+    "wp-advanced-search-admin.css",
+    "layout/options_page.sass",
+    "layout/_footer.sass"
+  ],
+  "names": [],
+  "mappings": "AAAA;;;;;;;;;GASG;ACTH;;GAEG;ACFH;EACE,iBAAgB;CAAI;;AAEtB;EAEI,cAAa;EACb,oBAAmB;EACnB,yBAAgB;UAAhB,iBAAgB;EAChB,0BAAyB;CAAI;;AAEjC;EACE,mBAAkB;EAClB,WAAU;CAAI;;AAEhB;EACE,uCAA8B;EAA9B,+BAA8B;EAC9B,WAAU;EACV,iBAAgB;CAAI;;AAEtB;EACG,+BAA8B;CAAI;;AAErC;EACC,+BAA8B;CAAI;;AAEnC;EACC,+BAA8B;CAAI;;AAEnC;EACE,yCAAwC;CAAI;;AC7B9C;;GAEG;AACH;EACE,yBAAwB;EACxB,2BAA0B;EAC1B,kBAAiB;CAAI;;AAEvB;EACE,0BAAyB;EACzB,2BAA0B;EAC1B,4BAA2B;CAAI;;AAEjC;EACE;IACE,2BAA0B;GAAI;CCuDjC;;ACtED;;GAEG;ACFH;;GAEG;AACH;EACE,+BAAsC;EACtC,+BAA8B;EAC9B,gCAA+B;EAC/B,8BAA6B;EAC7B,4BAA2B;EAC3B,cAAa;CAAI;;AAEnB;EACE,4BAA2B;EAC3B,8BAA6B;EAC7B,mBAAkB;EAClB,UAAS;EACT,QAAO;EACP,SAAQ;EACR,mBAAkB;EAClB,eAAc;CAAI;;AAEpB;EAEE,qBAAoB;EACpB,qBAAa;EAAb,cAAa;EAEb,sBAAqB;EACrB,kBAAiB;EACjB,eAAc;EACd,mBAAkB;EAClB,oBAAmB;EACnB,mBAAkB;EAClB,4BAA2B;EAC3B,uBAAsB;EACtB,aAAY;CAGiB;;AAhB/B;EAeI,iBAAgB;EAChB,sBAAqB;CAAI;;AAE7B;EACE,yBAAwB;EACxB,2BAA0B;EAC1B,eAAc;CAAI;;AAEpB;EACE,gBAAe;CAAI;;AAErB;EACE,YAAW;EACX,iBAAgB;CAAI;;AFqFtB,0+FAA0+F",
+  "file": "wp-advanced-search-admin.css",
+  "sourcesContent": [
+    "/**\n * Search Inside WordPress Plugin.\n *\n * @author    Josantonius <hello@josantonius.com>\n * @package   josantonius/wp-advanced-search\n * @copyright 2017 - 2018 (c) Josantonius - Search Inside\n * @license   GPL-2.0+\n * @link      https://github.com/josantonius/wp-advanced-search.git\n * @since     1.1.0\n */\n@import \"layout/header\"\n@import \"layout/options_page\"\n@import \"layout/footer\"",
+    "/**\n * Header\n */\n@import \"../partials/global\"\n@import \"../partials/nav\"\n@import \"../partials/form\"",
+    "html\n  overflow-y: auto\n\na\n  &:hover, &:active, &:focus\n    outline: none\n    outline-style: none\n    box-shadow: none\n    border-color: transparent\n\n.opacity-on\n  min-height: 1200px\n  opacity: 0\n\n.opacity-off\n  transition: opacity 1s ease-in\n  opacity: 1\n  min-height: auto\n\n.application--wrap\n  \tbackground: #ECF0F1 !important\n\n#wpcontent\n\tbackground: #ECF0F1 !important\n\n#wpbody-content\n\tbackground: #ECF0F1 !important\n\ninput.readonly, input[readonly], textarea.readonly, textarea[readonly]\n  background-color: transparent !important",
+    "/**\n * Nav\n */\n.gac-header-content\n  padding: 18px !important\n  margin-top: 0px !important\n  line-height: 18px\n\n.gac-header-title\n  color: #FFFFFF !important\n  font-size: 28px !important\n  font-weight: 300 !important\n\n@media (max-width: 504px)\n  .gac-header-title\n    font-size: 27px !important\n",
+    null,
+    "/**\n * Options page\n */\n@import \"../partials/form\"",
+    "/**\n * Footer\n */\n#jst-footer\n  background: rgb(35, 40, 45) !important\n  margin-right: -20px !important\n  margin-bottom: -20px !important\n  margin-left: -20px !important\n  margin-top: 10px !important\n  display: none\n\n.mdl-mini-footer\n  background: none !important\n  padding: 10px 22px !important\n  position: absolute\n  bottom: 0\n  left: 0\n  right: 0\n  padding: 10px 20px\n  color: #555d66\n\n.jst-made-with\n  display: -webkit-flex\n  display: -ms-flexbox\n  display: flex\n  -webkit-flex-wrap: nowrap\n  -ms-flex-wrap: nowrap\n  flex-wrap: nowrap\n  color: #636A73\n  position: relative\n  letter-spacing: 1px\n  font-size: inherit\n  -webkit-align-items: center\n  -ms-flex-align: center\n  margin: auto\n  a\n    margin-left: 5px\n    text-decoration: none\n\n.jst-made-with-icon\n  padding: 1px 5px 0px 0px\n  font-size: 20px !important\n  color: #23282d\n\n.info-icon\n  cursor: pointer\n\n.jst-fingerpoint\n  color: #666\n  margin-left: 2px\n"
+  ]
+}

@@ -1,0 +1,53 @@
+/**
+ * This file is part of https://github.com/josantonius/wp-advanced-search repository.
+ *
+ * (c) Josantonius <hello@josantonius.dev>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+.gac-heading {
+  text-align: center;
+  color: #3f51b5;
+}
+
+.gac-first-heading,
+.gac-second-heading {
+  color: #3f51b5;
+}
+
+.gac-second-heading {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.opacity-on {
+  opacity: 0;
+}
+
+.opacity-off {
+  -webkit-transition: opacity 1s ease-in;
+  transition: opacity 1s ease-in;
+  opacity: 1;
+  min-height: auto;
+}
+
+#ssss {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.jsjsjs {
+  color: red;
+}
+
+.v-list__tile {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoid29yZHByZXNzLWFkdmFuY2VkLXNlYXJjaC1mcm9udC5jc3MiLCJzb3VyY2VzIjpbIndvcmRwcmVzcy1hZHZhbmNlZC1zZWFyY2gtZnJvbnQuc2FzcyIsImxheW91dC9fd2FzX3Nob3J0Y29kZS5zYXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7R0FTRztBQ1RILEFBQUEsWUFBWSxDQUFDO0VBQ1gsVUFBVSxFQUFFLE1BQU07RUFDbEIsS0FBSyxFQUFFLE9BQU87Q0FBSTs7QUFFcEIsQUFBQSxrQkFBa0I7QUFDbEIsQUFBQSxtQkFBbUIsQ0FBQztFQUNsQixLQUFLLEVBQUUsT0FBTztDQUFJOztBQUVwQixBQUFBLG1CQUFtQixDQUFDO0VBQ2xCLFVBQVUsRUFBRSxHQUFHO0VBQ2YsU0FBUyxFQUFFLElBQUk7RUFDZixXQUFXLEVBQUUsR0FBRztDQUFJOztBQUV0QixBQUFBLFdBQVcsQ0FBQztFQUNWLE9BQU8sRUFBRSxDQUFDO0NBQUk7O0FBRWhCLEFBQUEsWUFBWSxDQUFDO0VBQ1gsVUFBVSxFQUFFLGtCQUFrQjtFQUM5QixPQUFPLEVBQUUsQ0FBQztFQUNWLFVBQVUsRUFBRSxJQUFJO0NBQUk7O0FBRXRCLEFBQUEsS0FBSyxDQUFDO0VBQ0osTUFBTSxFQUFFLGVBQWU7RUFDdkIsVUFBVSxFQUFFLGVBQWU7Q0FBSTs7QUFFakMsQUFBQSxPQUFPLENBQUM7RUFDTixLQUFLLEVBQUUsR0FBRztDQUFJOztBQUVoQixBQUFBLGFBQWEsQ0FBQztFQUNaLFVBQVUsRUFBRSxlQUFlO0NBQUkifQ== */
+
+/*# sourceMappingURL=wp-advanced-search-front.css.map */

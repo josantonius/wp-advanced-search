@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [
+    "wp-advanced-search-front.sass",
+    "layout/_was_shortcode.sass",
+    "wp-advanced-search-front.css"
+  ],
+  "names": [],
+  "mappings": "AAAA;;;;;;;;;GASG;ACTH;EACE,mBAAkB;EAClB,eAAc;CAAI;;AAEpB;;EAEE,eAAc;CAAI;;AAEpB;EACE,gBAAe;EACf,gBAAe;EACf,iBAAgB;CAAI;;AAEtB;EACE,WAAU;CAAI;;AAEhB;EACE,uCAA8B;EAA9B,+BAA8B;EAC9B,WAAU;EACV,iBAAgB;CAAI;;AAEtB;EACE,wBAAuB;EACvB,oCAA2B;UAA3B,4BAA2B;CAAI;;AAEjC;EACE,WAAU;CAAI;;AAEhB;EACE,oCAA2B;UAA3B,4BAA2B;CAAI;;ACoBjC,8+BAA8+B",
+  "file": "wp-advanced-search-front.css",
+  "sourcesContent": [
+    "/**\n * Search Inside WordPress Plugin.\n *\n * @author    Josantonius <hello@josantonius.com>\n * @package   josantonius/wp-advanced-search\n * @copyright 2017 - 2018 (c) Josantonius - Search Inside\n * @license   GPL-2.0+\n * @link      https://github.com/josantonius/wp-advanced-search.git\n * @since     1.1.0\n */\n@import \"layout/was_shortcode\"",
+    ".gac-heading\n  text-align: center\n  color: #3f51b5\n\n.gac-first-heading,\n.gac-second-heading\n  color: #3f51b5\n\n.gac-second-heading\n  margin-top: 0px\n  font-size: 14px\n  font-weight: 300\n\n.opacity-on\n  opacity: 0\n\n.opacity-off\n  transition: opacity 1s ease-in\n  opacity: 1\n  min-height: auto\n\n#ssss\n  border: none !important\n  box-shadow: none !important\n\n.jsjsjs\n  color: red\n\n.v-list__tile\n  box-shadow: none !important\n"
+  ]
+}
